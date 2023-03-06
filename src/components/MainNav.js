@@ -64,6 +64,8 @@ const MainNav = () => {
                     document.getElementById("submenu3").style.display = "block";
                     document.getElementById("submenu4").style.display = "block";
                     document.getElementById("submenu5").style.display = "block";
+                    document.getElementById("submenu6").style.display = "block";
+                    document.getElementById("submenu7").style.display = "block";
                   }}
                 >
                   <Link href="/services">Services</Link>{" "}
@@ -79,6 +81,8 @@ const MainNav = () => {
                     document.getElementById("submenu3").style.display = "none";
                     document.getElementById("submenu4").style.display = "none";
                     document.getElementById("submenu5").style.display = "none";
+                    document.getElementById("submenu6").style.display = "none";
+                    document.getElementById("submenu7").style.display = "none";
                   }}
                 >
                   <Link href="/services">Services</Link>{" "}
@@ -86,19 +90,39 @@ const MainNav = () => {
                 </li>
               )}
               <li id="submenu1">
-                <Link href="/accounting-services">Accounting Services</Link>
+                <Link href="/pages/services/tax-preparation-services-tampa-fl">
+                  Tax Preparation
+                </Link>
               </li>
               <li id="submenu2">
-                <Link href="/notary">Notary</Link>
+                <Link href="/pages/services/accounting-services-tampa-fl">
+                  Accounting Services
+                </Link>
               </li>
               <li id="submenu3">
-                <Link href="/tax-planning">Tax Planning</Link>
+                <Link href="/pages/services/notary-services-tampa-fl">
+                  Notary
+                </Link>
               </li>
               <li id="submenu4">
-                <Link href="/credit-repair">Credit Repair</Link>
+                <Link href="/pages/services/tax-resolution-services-tampa-fl">
+                  Tax Resolution
+                </Link>
               </li>
               <li id="submenu5">
-                <Link href="/insurance">Insurance</Link>
+                <Link href="/pages/services/tax-planning-services-tampa-fl">
+                  Tax Planning
+                </Link>
+              </li>
+              <li id="submenu6">
+                <Link href="/pages/services/credit-repair-counseling-services-tampa-fl">
+                  Credit Repair
+                </Link>
+              </li>
+              <li id="submenu7">
+                <Link href="/pages/services/insurance-services-tampa-fl">
+                  Insurance
+                </Link>
               </li>
               <li>
                 <Link href="/services-area">Services Area</Link>
@@ -132,25 +156,39 @@ const MainNav = () => {
                 <div className="dropdown-content-out">
                   <ul className="dropdown-content">
                     <li>
-                      <Link href="/">Tax Preparation</Link>
+                      <Link href="/pages/services/tax-preparation-services-tampa-fl">
+                        Tax Preparation
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Accounting Services</Link>
+                      <Link href="/pages/services/accounting-services-tampa-fl">
+                        Accounting Services
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Notary</Link>
+                      <Link href="/pages/services/notary-services-tampa-fl">
+                        Notary
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Tax Resolution</Link>
+                      <Link href="/pages/services/tax-resolution-services-tampa-fl">
+                        Tax Resolution
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Tax Planning</Link>
+                      <Link href="/pages/services/tax-planning-services-tampa-fl">
+                        Tax Planning
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Credit Repair & Counseling</Link>
+                      <Link href="/pages/services/credit-repair-counseling-services-tampa-fl">
+                        Credit Repair & Counseling
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Insurance</Link>
+                      <Link href="/pages/services/insurance-services-tampa-fl">
+                        Insurance
+                      </Link>
                     </li>
                   </ul>
                 </div>
