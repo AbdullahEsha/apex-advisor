@@ -7,6 +7,7 @@ import useWindowDimensions from "./useWindowDimensions";
 
 const MainNav = () => {
   const [menuIcon, setMenuIcon] = useState(true);
+  const [subMenuIcon, setSubMenuIcon] = useState(true);
   const { width } = useWindowDimensions();
 
   return (
@@ -53,10 +54,51 @@ const MainNav = () => {
               <li>
                 <Link href="/about">About</Link>
               </li>
-              <li>
-                <Link href="/services" id="service-mobile">
-                  Services <RiArrowDropDownLine size={25} />
-                </Link>
+              {subMenuIcon ? (
+                <li
+                  id="service-list"
+                  onClick={() => {
+                    setSubMenuIcon(false);
+                    document.getElementById("submenu1").style.display = "block";
+                    document.getElementById("submenu2").style.display = "block";
+                    document.getElementById("submenu3").style.display = "block";
+                    document.getElementById("submenu4").style.display = "block";
+                    document.getElementById("submenu5").style.display = "block";
+                  }}
+                >
+                  <Link href="/services">Services</Link>{" "}
+                  <RiArrowDropDownLine size={25} id="service-mobile" />
+                </li>
+              ) : (
+                <li
+                  id="service-list"
+                  onClick={() => {
+                    setSubMenuIcon(true);
+                    document.getElementById("submenu1").style.display = "none";
+                    document.getElementById("submenu2").style.display = "none";
+                    document.getElementById("submenu3").style.display = "none";
+                    document.getElementById("submenu4").style.display = "none";
+                    document.getElementById("submenu5").style.display = "none";
+                  }}
+                >
+                  <Link href="/services">Services</Link>{" "}
+                  <RiArrowDropDownLine size={25} id="service-mobile" />
+                </li>
+              )}
+              <li id="submenu1">
+                <Link href="/accounting-services">Accounting Services</Link>
+              </li>
+              <li id="submenu2">
+                <Link href="/notary">Notary</Link>
+              </li>
+              <li id="submenu3">
+                <Link href="/tax-planning">Tax Planning</Link>
+              </li>
+              <li id="submenu4">
+                <Link href="/credit-repair">Credit Repair</Link>
+              </li>
+              <li id="submenu5">
+                <Link href="/insurance">Insurance</Link>
               </li>
               <li>
                 <Link href="/services-area">Services Area</Link>

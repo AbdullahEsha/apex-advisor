@@ -596,6 +596,25 @@ ul#mobile-menu li {
   font-size: 18px;
   color: #000;
 }
+#submenu1,
+#submenu2,
+#submenu3,
+#submenu4,
+#submenu5 {
+  display: none;
+  transition: 1s ease;
+  border: none !important;
+}
+#service-mobile {
+  margin-top: -5px;
+  position: relative;
+  top: 6px;
+  left: -5px;
+}
+#service-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* ======================== mobile nav end ============================== */
 
 /* ======================= nav bar end ======================= */
