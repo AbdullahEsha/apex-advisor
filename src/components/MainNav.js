@@ -1,14 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { MdLocalPhone } from "react-icons/md";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import useWindowDimensions from "./useWindowDimensions";
+import Image from 'next/image'
+import Link from 'next/link'
+import { useState } from 'react'
+import { MdLocalPhone } from 'react-icons/md'
+import { RiArrowDropDownLine } from 'react-icons/ri'
+import useWindowDimensions from './useWindowDimensions'
 
 const MainNav = () => {
-  const [menuIcon, setMenuIcon] = useState(true);
-  const [subMenuIcon, setSubMenuIcon] = useState(true);
-  const { width } = useWindowDimensions();
+  const [menuIcon, setMenuIcon] = useState(true)
+  const [subMenuIcon, setSubMenuIcon] = useState(true)
+  const { width } = useWindowDimensions()
 
   return (
     <>
@@ -23,8 +23,8 @@ const MainNav = () => {
                 width={16}
                 id="mobile_menu_icon"
                 onClick={() => {
-                  setMenuIcon(false);
-                  document.getElementById("mobile-menu").style.display = "grid";
+                  setMenuIcon(false)
+                  document.getElementById('mobile-menu').style.display = 'grid'
                 }}
               />
             ) : (
@@ -35,8 +35,8 @@ const MainNav = () => {
                 width={16}
                 id="mobile_menu_icon"
                 onClick={() => {
-                  setMenuIcon(true);
-                  document.getElementById("mobile-menu").style.display = "none";
+                  setMenuIcon(true)
+                  document.getElementById('mobile-menu').style.display = 'none'
                 }}
               />
             )}
@@ -58,34 +58,34 @@ const MainNav = () => {
                 <li
                   id="service-list"
                   onClick={() => {
-                    setSubMenuIcon(false);
-                    document.getElementById("submenu1").style.display = "block";
-                    document.getElementById("submenu2").style.display = "block";
-                    document.getElementById("submenu3").style.display = "block";
-                    document.getElementById("submenu4").style.display = "block";
-                    document.getElementById("submenu5").style.display = "block";
-                    document.getElementById("submenu6").style.display = "block";
-                    document.getElementById("submenu7").style.display = "block";
+                    setSubMenuIcon(false)
+                    document.getElementById('submenu1').style.display = 'block'
+                    document.getElementById('submenu2').style.display = 'block'
+                    document.getElementById('submenu3').style.display = 'block'
+                    document.getElementById('submenu4').style.display = 'block'
+                    document.getElementById('submenu5').style.display = 'block'
+                    document.getElementById('submenu6').style.display = 'block'
+                    document.getElementById('submenu7').style.display = 'block'
                   }}
                 >
-                  <Link href="/services">Services</Link>{" "}
+                  <Link href="/services">Services</Link>{' '}
                   <RiArrowDropDownLine size={25} id="service-mobile" />
                 </li>
               ) : (
                 <li
                   id="service-list"
                   onClick={() => {
-                    setSubMenuIcon(true);
-                    document.getElementById("submenu1").style.display = "none";
-                    document.getElementById("submenu2").style.display = "none";
-                    document.getElementById("submenu3").style.display = "none";
-                    document.getElementById("submenu4").style.display = "none";
-                    document.getElementById("submenu5").style.display = "none";
-                    document.getElementById("submenu6").style.display = "none";
-                    document.getElementById("submenu7").style.display = "none";
+                    setSubMenuIcon(true)
+                    document.getElementById('submenu1').style.display = 'none'
+                    document.getElementById('submenu2').style.display = 'none'
+                    document.getElementById('submenu3').style.display = 'none'
+                    document.getElementById('submenu4').style.display = 'none'
+                    document.getElementById('submenu5').style.display = 'none'
+                    document.getElementById('submenu6').style.display = 'none'
+                    document.getElementById('submenu7').style.display = 'none'
                   }}
                 >
-                  <Link href="/services">Services</Link>{" "}
+                  <Link href="/services">Services</Link>{' '}
                   <RiArrowDropDownLine size={25} id="service-mobile" />
                 </li>
               )}
@@ -128,7 +128,7 @@ const MainNav = () => {
                 <Link href="/services-area">Services Area</Link>
               </li>
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/blogs">Blogs</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>
@@ -194,7 +194,7 @@ const MainNav = () => {
                 </div>
               </div>
               <Link href="/services-area">Services Area</Link>
-              <Link href="/blog">Blog</Link>
+              <Link href="/blogs">Blogs</Link>
               <Link href="/contact">Contact</Link>
             </div>
             <div className="main-nav-right">
@@ -212,7 +212,7 @@ const MainNav = () => {
         </div>
       )}
     </>
-  );
-};
+  )
+}
 
-export default MainNav;
+export default MainNav
