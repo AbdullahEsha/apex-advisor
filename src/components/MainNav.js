@@ -198,12 +198,12 @@ const MainNav = () => {
               <Link href="/contact">Contact</Link>
             </div>
             <div className="main-nav-right">
-              <Link href="" className="nav-button">
+              <Link href="/contact" className="nav-button">
                 Email Now
               </Link>
-              <a href="" className="nav-button">
+              <Link href="/pages/book-an-appointment" className="nav-button">
                 Book an appoinment
-              </a>
+              </Link>
               <a href="tel:(813) 678 2400" id="phone-number">
                 <MdLocalPhone size={20} /> (813) 678 2400
               </a>

@@ -33,6 +33,9 @@
 body {
   margin: 0px;
 }
+.br-extra {
+  display: none;
+}
 .homebanner1 {
   padding: 125px;
   background: url("/image/homebanner.png") no-repeat center center;
@@ -882,6 +885,9 @@ ul#mobile-menu li {
   .col-9 {
     width: 100%;
   }
+  .br-extra {
+    display: block;
+  }
   .head-img {
     display: none;
   }
@@ -1105,6 +1111,9 @@ ul#mobile-menu li {
   .col-8,
   .col-9 {
     width: 100%;
+  }
+  .br-extra {
+    display: block;
   }
   .head-img {
     display: none;
