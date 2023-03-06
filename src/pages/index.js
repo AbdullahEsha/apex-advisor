@@ -1,21 +1,21 @@
-import Head from "next/head";
-import MainNav from "@/components/MainNav";
-import Image from "next/image";
-import Link from "next/link";
-import { Data } from "@/components/Data";
-import { BlogData } from "@/components/BlogData";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
-import SwiperCore, { Autoplay } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import MainFooter from "@/components/MainFooter";
-import useWindowDimensions from "@/components/useWindowDimensions";
+import Head from 'next/head'
+import MainNav from '@/components/MainNav'
+import Image from 'next/image'
+import Link from 'next/link'
+import { Data } from '@/components/Data'
+import { BlogData } from '@/components/BlogData'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper'
+import SwiperCore, { Autoplay } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import MainFooter from '@/components/MainFooter'
+import useWindowDimensions from '@/components/useWindowDimensions'
 
 const Home = () => {
-  const { width } = useWindowDimensions();
-  SwiperCore.use([Autoplay]);
+  const { width } = useWindowDimensions()
+  SwiperCore.use([Autoplay])
 
   return (
     <>
@@ -27,14 +27,26 @@ const Home = () => {
       </Head>
       <main>
         <MainNav />
-        <div className="homebanner1 container">
+        <div
+          className="homebanner1 container"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
           <h1>40+ YEARS OF COMBINED EXPERIENCE</h1>
           <p>
             in the tax, accounting, insurance and financial services industry.
           </p>
           <Link href="">GET IN TOUCH</Link>
         </div>
-        <div className="home-advisor container">
+        <div
+          className="home-advisor container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <h2>Apex Advisor Group Inc</h2>
           <h4>Accounting Firm In Tampa, Florida</h4>
           <p>
@@ -48,11 +60,11 @@ const Home = () => {
             business.
           </p>
           <p>
-            Our Tax Accountants serve clients across{" "}
+            Our Tax Accountants serve clients across{' '}
             <b>
               Tampa, Brandon, Riverview, Sun City, Ruskin, Plant City, Wesley
               Chapel, Lithia
-            </b>{" "}
+            </b>{' '}
             and the surrounding areas.
           </p>
           <p>
@@ -60,7 +72,13 @@ const Home = () => {
             Firm in Tampa, Florida.
           </p>
         </div>
-        <div className="home-service container">
+        <div
+          className="home-service container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <div className="row">
             <div className="col-4">
               <div className="home-service-right-padding">
@@ -104,10 +122,10 @@ const Home = () => {
                 }}
                 initialSlide={1.6}
                 style={{
-                  width: "100%",
-                  margin: "auto",
-                  padding: "10px",
-                  height: "325px",
+                  width: '100%',
+                  margin: 'auto',
+                  padding: '10px',
+                  height: '325px',
                 }}
               >
                 {Data.map((item, index) => (
@@ -128,7 +146,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="home-why-us container">
+        <div
+          className="home-why-us container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <h2>Why Us</h2>
           <div id="home-why-us-border-bottom" />
           <p>
@@ -164,7 +188,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="home-about-us">
+        <div
+          className="home-about-us"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <div className="container">
             <h2>About Us</h2>
             <div id="home-about-us-border" />
@@ -210,7 +240,13 @@ const Home = () => {
             <Link href="/">Read More</Link>
           </div>
         </div>
-        <div className="home-blog container">
+        <div
+          className="home-blog container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <h2>Latest Blog Posts</h2>
           <div id="home-blog-border" />
           <p>
@@ -244,10 +280,10 @@ const Home = () => {
               }}
               initialSlide={1.6}
               style={{
-                width: "100%",
-                margin: "auto",
-                padding: "10px",
-                height: "100%",
+                width: '100%',
+                margin: 'auto',
+                padding: '10px',
+                height: '100%',
               }}
             >
               {BlogData.map((item, index) => (
@@ -268,7 +304,13 @@ const Home = () => {
             </Swiper>
           </div>
         </div>
-        <div className="home-get-touch">
+        <div
+          className="home-get-touch"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <h2>Contact Apex Advisor Group Inc</h2>
           <p>
             You can be confident that Apex Advisor Group Inc is the right choice
@@ -293,7 +335,7 @@ const Home = () => {
         <MainFooter />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

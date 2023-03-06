@@ -1,7 +1,7 @@
-import MainFooter from "@/components/MainFooter";
-import MainNav from "@/components/MainNav";
-import Head from "next/head";
-import Image from "next/image";
+import MainFooter from '@/components/MainFooter'
+import MainNav from '@/components/MainNav'
+import Head from 'next/head'
+import Image from 'next/image'
 
 const Contact = () => {
   return (
@@ -14,7 +14,13 @@ const Contact = () => {
       </Head>
       <main>
         <MainNav />
-        <div className="head-top-container">
+        <div
+          className="head-top-container"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
           <div className="row">
             <div className="col-6"></div>
             <div className="col-6">
@@ -42,7 +48,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <div className="row">
             <div className="col-6">
               <div className="contact-address">
@@ -83,18 +95,22 @@ const Contact = () => {
           </div>
         </div>
         <iframe
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
           width="100%"
           height="300"
           className="contact-map"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
           src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=1211%20Tech%20Blvd%20Suite%20105+(Apex%20Advisor)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         />
         <MainFooter />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

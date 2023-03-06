@@ -1,7 +1,7 @@
-import MainFooter from "@/components/MainFooter";
-import MainNav from "@/components/MainNav";
-import Head from "next/head";
-import Image from "next/image";
+import MainFooter from '@/components/MainFooter'
+import MainNav from '@/components/MainNav'
+import Head from 'next/head'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -14,7 +14,13 @@ const About = () => {
       </Head>
       <main>
         <MainNav />
-        <div className="head-top-container">
+        <div
+          className="head-top-container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <div className="row">
             <div className="col-6"></div>
             <div className="col-6">
@@ -53,7 +59,13 @@ const About = () => {
           </div>
         </div>
         <div className="container">
-          <div className="about-group-member">
+          <div
+            className="about-group-member"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor1.jpg"
               alt="advisor-image"
@@ -85,7 +97,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-group-member">
+          <div
+            className="about-group-member"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor2.jpg"
               alt="advisor-image"
@@ -118,7 +136,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-group-member">
+          <div
+            className="about-group-member"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor3.jpg"
               alt="advisor-image"
@@ -162,7 +186,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-group-member">
+          <div
+            className="about-group-member"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor4.jpg"
               alt="advisor-image"
@@ -196,7 +226,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-group-member">
+          <div
+            className="about-group-member"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor5.jpg"
               alt="advisor-image"
@@ -218,20 +254,26 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-bottom-content">
+          <div
+            className="about-bottom-content"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <p>
-              Services by Apex Advisor Group Inc include:{" "}
-              <a href="">Tax Preparation</a> |{" "}
-              <a href="">Accounting Services</a> | <a href="">Notary</a> |{" "}
-              <a href="">Tax Resolution</a> | <a href="">Tax Planning</a> |{" "}
-              <a href="">Credit Repair & Counseling</a> |{" "}
+              Services by Apex Advisor Group Inc include:{' '}
+              <a href="">Tax Preparation</a> |{' '}
+              <a href="">Accounting Services</a> | <a href="">Notary</a> |{' '}
+              <a href="">Tax Resolution</a> | <a href="">Tax Planning</a> |{' '}
+              <a href="">Credit Repair & Counseling</a> |{' '}
               <a href="">Insurance</a>
             </p>
             <p>
               Our Tax Accountants serve clients across <a href="">Tampa</a>,
-              <a href=""> Brandon</a>, <a href="">Riverview</a>,{" "}
-              <a href=""> Sun City</a>, <a href="">Ruskin</a>,{" "}
-              <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{" "}
+              <a href=""> Brandon</a>, <a href="">Riverview</a>,{' '}
+              <a href=""> Sun City</a>, <a href="">Ruskin</a>,{' '}
+              <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{' '}
               <a href=""> Lithia</a> and the surrounding areas.
             </p>
           </div>
@@ -239,7 +281,7 @@ const About = () => {
         <MainFooter />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

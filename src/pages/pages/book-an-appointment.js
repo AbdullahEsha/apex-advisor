@@ -1,8 +1,8 @@
-import MainFooter from "@/components/MainFooter";
-import MainNav from "@/components/MainNav";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+import MainFooter from '@/components/MainFooter'
+import MainNav from '@/components/MainNav'
+import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const BookAnAppoinment = () => {
   return (
@@ -15,7 +15,13 @@ const BookAnAppoinment = () => {
       </Head>
       <main>
         <MainNav />
-        <div className="head-top-container">
+        <div
+          className="head-top-container"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
           <div className="row">
             <div className="col-6"></div>
             <div className="col-6">
@@ -41,7 +47,13 @@ const BookAnAppoinment = () => {
           </div>
         </div>
         <div className="container">
-          <div className="service-group">
+          <div
+            className="service-group"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor1.jpg"
               alt="tax-prepration"
@@ -59,7 +71,13 @@ const BookAnAppoinment = () => {
               </Link>
             </div>
           </div>
-          <div className="service-group">
+          <div
+            className="service-group"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor2.jpg"
               alt="accounting-services"
@@ -77,7 +95,13 @@ const BookAnAppoinment = () => {
               </Link>
             </div>
           </div>
-          <div className="service-group">
+          <div
+            className="service-group"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor3.jpg"
               alt="notary"
@@ -95,7 +119,13 @@ const BookAnAppoinment = () => {
               </Link>
             </div>
           </div>
-          <div className="service-group">
+          <div
+            className="service-group"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor4.jpg"
               alt="tax-resolution"
@@ -113,7 +143,13 @@ const BookAnAppoinment = () => {
               </Link>
             </div>
           </div>
-          <div className="service-group">
+          <div
+            className="service-group"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <Image
               src="/image/advisor5.jpg"
               alt="tax-planning"
@@ -131,20 +167,26 @@ const BookAnAppoinment = () => {
               </Link>
             </div>
           </div>
-          <div className="about-bottom-content">
+          <div
+            className="about-bottom-content"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <p>
-              Services by Apex Advisor Group Inc include:{" "}
-              <a href="">Tax Preparation</a> |{" "}
-              <a href="">Accounting Services</a> | <a href="">Notary</a> |{" "}
-              <a href="">Tax Resolution</a> | <a href="">Tax Planning</a> |{" "}
-              <a href="">Credit Repair & Counseling</a> |{" "}
+              Services by Apex Advisor Group Inc include:{' '}
+              <a href="">Tax Preparation</a> |{' '}
+              <a href="">Accounting Services</a> | <a href="">Notary</a> |{' '}
+              <a href="">Tax Resolution</a> | <a href="">Tax Planning</a> |{' '}
+              <a href="">Credit Repair & Counseling</a> |{' '}
               <a href="">Insurance</a>
             </p>
             <p>
               Our Tax Accountants serve clients across <a href="">Tampa</a>,
-              <a href=""> Brandon</a>, <a href="">Riverview</a>,{" "}
-              <a href=""> Sun City</a>, <a href="">Ruskin</a>,{" "}
-              <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{" "}
+              <a href=""> Brandon</a>, <a href="">Riverview</a>,{' '}
+              <a href=""> Sun City</a>, <a href="">Ruskin</a>,{' '}
+              <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{' '}
               <a href=""> Lithia</a> and the surrounding areas.
             </p>
           </div>
@@ -152,7 +194,7 @@ const BookAnAppoinment = () => {
         <MainFooter />
       </main>
     </>
-  );
-};
+  )
+}
 
-export default BookAnAppoinment;
+export default BookAnAppoinment
