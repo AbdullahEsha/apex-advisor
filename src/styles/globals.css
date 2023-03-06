@@ -889,7 +889,7 @@ ul#mobile-menu li {
   }
   .service-border {
     position: relative;
-    left: 26%;
+    left: 28%;
   }
   .home-about-us-image-container img {
     height: 100px;
@@ -952,6 +952,7 @@ ul#mobile-menu li {
   .service-group img,
   .service-group-content {
     width: 100%;
+    padding: 0px 5px;
   }
   .service-group {
     margin-top: 25px;
@@ -963,6 +964,10 @@ ul#mobile-menu li {
   }
   .reverse {
     flex-direction: column-reverse;
+  }
+  .footer-bottom p {
+    max-width: 220px;
+    margin: 0px auto;
   }
 }
 @media only screen and (min-width: 350px) and (max-width: 449px) {
@@ -1007,6 +1012,7 @@ ul#mobile-menu li {
   .service-group img,
   .service-group-content {
     width: 100%;
+    padding: 0px 5px;
   }
   .reverse {
     flex-direction: column-reverse;
@@ -1058,12 +1064,12 @@ ul#mobile-menu li {
     text-align: center;
   }
   .homebanner1 {
-    padding: 25px;
+    padding: 20px;
     margin-top: 85px;
   }
   .homebanner1 h1 {
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 35px;
   }
   .homebanner1 a {
     padding: 8px;
@@ -1071,6 +1077,8 @@ ul#mobile-menu li {
   }
   .homebanner1 p {
     font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
   }
   .home-why-us-image-container {
     height: 74px;
@@ -1140,10 +1148,11 @@ ul#mobile-menu li {
   }
   .home-service h3 {
     color: #000;
+    font-size: 28px;
   }
   .service-border {
     position: relative;
-    left: 22%;
+    left: 25%;
     width: 50px;
   }
   .home-about-us-image-container {
@@ -1166,7 +1175,7 @@ ul#mobile-menu li {
     width: 72%;
   }
   .home-get-touch h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .home-get-touch p {
     max-width: 380px;
@@ -1194,5 +1203,9 @@ ul#mobile-menu li {
   .home-advisor p {
     font-size: 14px;
     font-weight: 400;
+  }
+  .footer-bottom p {
+    max-width: 220px;
+    margin: 0px auto;
   }
 }
