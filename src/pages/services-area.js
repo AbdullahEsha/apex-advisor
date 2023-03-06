@@ -1,5 +1,13 @@
-const ServicesArea = () => {
-  return <div></div>;
-};
+import MainFooter from '@/components/MainFooter'
+import MainNav from '@/components/MainNav'
 
-export default ServicesArea;
+const ServicesArea = () => {
+  return (
+    <>
+      <MainNav />
+      <MainFooter />
+    </>
+  )
+}
+
+export default ServicesArea
