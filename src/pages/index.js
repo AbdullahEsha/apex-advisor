@@ -38,7 +38,7 @@ const Home = () => {
           <p>
             in the tax, accounting, insurance and financial services industry.
           </p>
-          <Link href="">GET IN TOUCH</Link>
+          <Link href="/contact">GET IN TOUCH</Link>
         </div>
         <div
           className="home-advisor container"
@@ -237,7 +237,7 @@ const Home = () => {
                 width={164}
               />
             </div>
-            <Link href="/">Read More</Link>
+            <Link href="/about">Read More</Link>
           </div>
         </div>
         <div

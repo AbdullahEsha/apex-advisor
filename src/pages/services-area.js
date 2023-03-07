@@ -45,10 +45,21 @@ const ServicesArea = () => {
             </div>
           </div>
         </div>
-        <div className="conteiner">
+        <div className="container">
           <div className="row">
-            <div className="col-9"></div>
-            <div className="col-3"></div>
+            <div className="col-9">
+              <div className="service-area-content">
+                <p>
+                  We here at Apex Advisor Group are a team of highly qualified
+                  professionals that have over 40+ years of combined experience
+                  in the tax, accounting, insurance and financial services
+                  industry.
+                </p>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="service-area-side-bar"></div>
+            </div>
           </div>
         </div>
         <MainFooter />
