@@ -1,7 +1,7 @@
-import MainFooter from '@/components/MainFooter'
-import MainNav from '@/components/MainNav'
-import Head from 'next/head'
-import Image from 'next/image'
+import MainFooter from "@/components/MainFooter";
+import MainNav from "@/components/MainNav";
+import Head from "next/head";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -109,8 +109,12 @@ const Contact = () => {
         />
         <MainFooter />
       </main>
+      <script
+        src="//code.tidio.co/vbdxwhbv8jwavxp55kspaiysemfvbur8.js"
+        async
+      ></script>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

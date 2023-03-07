@@ -101,6 +101,10 @@ const InsuranceServicesTampaFl = () => {
         <CallToAction />
         <MainFooter />
       </main>
+      <script
+        src="//code.tidio.co/vbdxwhbv8jwavxp55kspaiysemfvbur8.js"
+        async
+      ></script>
     </>
   );
 };
