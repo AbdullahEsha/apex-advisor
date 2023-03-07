@@ -1,21 +1,21 @@
-import Head from 'next/head'
-import MainNav from '@/components/MainNav'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Data } from '@/components/Data'
-import { BlogData } from '@/components/BlogData'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper'
-import SwiperCore, { Autoplay } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import MainFooter from '@/components/MainFooter'
-import useWindowDimensions from '@/components/useWindowDimensions'
+import Head from "next/head";
+import MainNav from "@/components/MainNav";
+import Image from "next/image";
+import Link from "next/link";
+import { Data } from "@/components/Data";
+import { BlogData } from "@/components/BlogData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper";
+import SwiperCore, { Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import MainFooter from "@/components/MainFooter";
+import useWindowDimensions from "@/components/useWindowDimensions";
 
 const Home = () => {
-  const { width } = useWindowDimensions()
-  SwiperCore.use([Autoplay])
+  const { width } = useWindowDimensions();
+  SwiperCore.use([Autoplay]);
 
   return (
     <>
@@ -60,11 +60,11 @@ const Home = () => {
             business.
           </p>
           <p>
-            Our Tax Accountants serve clients across{' '}
+            Our Tax Accountants serve clients across{" "}
             <b>
               Tampa, Brandon, Riverview, Sun City, Ruskin, Plant City, Wesley
               Chapel, Lithia
-            </b>{' '}
+            </b>{" "}
             and the surrounding areas.
           </p>
           <p>
@@ -122,10 +122,10 @@ const Home = () => {
                 }}
                 initialSlide={1.6}
                 style={{
-                  width: '100%',
-                  margin: 'auto',
-                  padding: '10px',
-                  height: '325px',
+                  width: "100%",
+                  margin: "auto",
+                  padding: "10px",
+                  height: "325px",
                 }}
               >
                 {Data.map((item, index) => (
@@ -207,32 +207,32 @@ const Home = () => {
             </p>
             <div className="home-about-us-image-container">
               <Image
-                src="/image/people1.png"
-                alt="people"
+                src="/image/advisor1.jpg"
+                alt="advisor"
                 height={164}
                 width={164}
               />
               <Image
-                src="/image/people2.png"
-                alt="people"
+                src="/image/advisor2.jpg"
+                alt="advisor"
                 height={164}
                 width={164}
               />
               <Image
-                src="/image/people3.png"
-                alt="people"
+                src="/image/advisor3.jpg"
+                alt="advisor"
                 height={164}
                 width={164}
               />
               <Image
-                src="/image/people4.png"
-                alt="people"
+                src="/image/advisor4.jpg"
+                alt="advisor"
                 height={164}
                 width={164}
               />
               <Image
-                src="/image/people5.png"
-                alt="people"
+                src="/image/advisor5.jpg"
+                alt="advisor"
                 height={164}
                 width={164}
               />
@@ -280,10 +280,10 @@ const Home = () => {
               }}
               initialSlide={1.6}
               style={{
-                width: '100%',
-                margin: 'auto',
-                padding: '10px',
-                height: '100%',
+                width: "100%",
+                margin: "auto",
+                padding: "10px",
+                height: "100%",
               }}
             >
               {BlogData.map((item, index) => (
@@ -335,7 +335,7 @@ const Home = () => {
         <MainFooter />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
