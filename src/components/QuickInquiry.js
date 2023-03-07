@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react'
 
 const QuickInquiry = () => {
-  const [button, setButton] = useState(true);
+  const [button, setButton] = useState(true)
   return (
     <div className="quick-inquiry">
       <div className="quick-inquiry-form">
@@ -18,11 +18,10 @@ const QuickInquiry = () => {
       {button ? (
         <p
           className="quick-inquiry-btn"
-          id="quick-inquiry-btn-before"
+          id="quick-inquiry-btn-after"
           onClick={() => {
-            document.querySelector(".quick-inquiry-form").style.display =
-              "none";
-            setButton(false);
+            document.querySelector('.quick-inquiry-form').style.display = 'grid'
+            setButton(false)
           }}
         >
           Quick Inquiry
@@ -30,18 +29,17 @@ const QuickInquiry = () => {
       ) : (
         <p
           className="quick-inquiry-btn"
-          id="quick-inquiry-btn-after"
+          id="quick-inquiry-btn-before"
           onClick={() => {
-            document.querySelector(".quick-inquiry-form").style.display =
-              "grid";
-            setButton(true);
+            document.querySelector('.quick-inquiry-form').style.display = 'none'
+            setButton(true)
           }}
         >
           Quick Inquiry
         </p>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default QuickInquiry;
+export default QuickInquiry
