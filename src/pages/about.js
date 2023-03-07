@@ -1,7 +1,8 @@
-import MainFooter from '@/components/MainFooter'
-import MainNav from '@/components/MainNav'
-import Head from 'next/head'
-import Image from 'next/image'
+import CallToAction from "@/components/CallToAction";
+import MainFooter from "@/components/MainFooter";
+import MainNav from "@/components/MainNav";
+import Head from "next/head";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -254,7 +255,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div
+          {/* <div
             className="about-bottom-content"
             data-aos="fade-up"
             data-aos-delay="50"
@@ -276,12 +277,13 @@ const About = () => {
               <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{' '}
               <a href=""> Lithia</a> and the surrounding areas.
             </p>
-          </div>
+          </div> */}
         </div>
+        <CallToAction />
         <MainFooter />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

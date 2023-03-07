@@ -1,7 +1,9 @@
+import CallToAction from "@/components/CallToAction";
 import MainFooter from "@/components/MainFooter";
 import MainNav from "@/components/MainNav";
 import Head from "next/head";
 import Image from "next/image";
+import { RiMapPin2Line } from "react-icons/ri";
 
 const ServicesArea = () => {
   return (
@@ -46,22 +48,41 @@ const ServicesArea = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row">
-            <div className="col-9">
-              <div className="service-area-content">
-                <p>
-                  We here at Apex Advisor Group are a team of highly qualified
-                  professionals that have over 40+ years of combined experience
-                  in the tax, accounting, insurance and financial services
-                  industry.
-                </p>
-              </div>
-            </div>
-            <div className="col-3">
-              <div className="service-area-side-bar"></div>
+          <div className="service-area-content">
+            <p>
+              We here at Apex Advisor Group are a team of highly qualified
+              professionals that have over 40+ years of combined experience in
+              the tax, accounting, insurance and financial services industry.
+            </p>
+            <div className="service-area-card-container">
+              <h3>
+                Tampa <RiMapPin2Line />
+              </h3>
+              <h3>
+                Brandon <RiMapPin2Line />
+              </h3>
+              <h3>
+                Riverview <RiMapPin2Line />
+              </h3>
+              <h3>
+                Sun City <RiMapPin2Line />
+              </h3>
+              <h3>
+                Ruskin <RiMapPin2Line />
+              </h3>
+              <h3>
+                Plant City <RiMapPin2Line />
+              </h3>
+              <h3>
+                Wesley Chapel <RiMapPin2Line />
+              </h3>
+              <h3>
+                Lithia <RiMapPin2Line />
+              </h3>
             </div>
           </div>
         </div>
+        <CallToAction />
         <MainFooter />
       </main>
     </>

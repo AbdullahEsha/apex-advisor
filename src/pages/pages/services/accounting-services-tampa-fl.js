@@ -1,3 +1,4 @@
+import CallToAction from "@/components/CallToAction";
 import MainFooter from "@/components/MainFooter";
 import MainNav from "@/components/MainNav";
 import ServiceSideBar from "@/components/ServiceSideBar";
@@ -89,29 +90,7 @@ const AccountingServicesTampaFl = () => {
               </div>
             </div>
           </div>
-          <div
-            className="about-bottom-content"
-            data-aos="fade-up"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
-          >
-            <p>
-              Services by Apex Advisor Group Inc include:{" "}
-              <a href="">Tax Preparation</a> |{" "}
-              <a href="">Accounting Services</a> | <a href="">Notary</a> |{" "}
-              <a href="">Tax Resolution</a> | <a href="">Tax Planning</a> |{" "}
-              <a href="">Credit Repair & Counseling</a> |{" "}
-              <a href="">Insurance</a>
-            </p>
-            <p>
-              Our Tax Accountants serve clients across <a href="">Tampa</a>,
-              <a href=""> Brandon</a>, <a href="">Riverview</a>,{" "}
-              <a href=""> Sun City</a>, <a href="">Ruskin</a>,{" "}
-              <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{" "}
-              <a href=""> Lithia</a> and the surrounding areas.
-            </p>
-          </div>
+          <CallToAction />
         </div>
         <MainFooter />
       </main>

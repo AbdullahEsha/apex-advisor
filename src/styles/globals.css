@@ -582,6 +582,71 @@ body {
   text-decoration: none;
   color: #000;
 }
+.service-area-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 30px #4d4d4d4d;
+}
+.service-area-card-container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background: linear-gradient(45deg, #2b2b2b, #0c5887);
+  color: white;
+  margin: 0px;
+  height: 90px;
+  font-size: 16px;
+  gap: 5px;
+}
+.service-area-card-container h3 svg {
+  transition: 0.6s ease;
+}
+@keyframes cardmove {
+  0% {
+    gap: 5px;
+  }
+  60% {
+    gap: 25px;
+  }
+}
+.service-area-card-container h3:hover {
+  animation: cardmove 1200ms forwards;
+  gap: 25px;
+  color: #fff !important;
+}
+.call-to-action {
+  text-align: center;
+  margin: 50px auto;
+}
+.call-to-action h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.call-to-action p {
+  max-width: 800px;
+  margin: 15px auto 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6d9bb7;
+}
+.call-to-action a {
+  background-color: #0b7788;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px #0b77884d;
+  transition: 0.6s ease;
+}
+.call-to-action a:hover {
+  border: 1px solid #0b7788;
+  background-color: #fff;
+  color: #0b7788;
+}
+.service-area-content {
+  margin: 50px auto;
+}
 /* ======================= nav bar ======================= */
 .main-nav-container {
   display: flex;
@@ -842,6 +907,18 @@ ul#mobile-menu li {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   :root {
     --panelsize: 980px;
+  }
+  .col-3 {
+    display: none;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .main-nav-left a {
+    font-size: 17px;
+  }
+  .blog-detail {
+    padding-right: 0px;
   }
   .main-nav-left img {
     height: 50px;
@@ -1128,6 +1205,23 @@ ul#mobile-menu li {
   .blog-author {
     font-size: 16px;
   }
+  .service-area-card-container h3 {
+    width: 50%;
+  }
+  .call-to-action {
+    margin: 25px auto;
+  }
+  .call-to-action h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .call-to-action p {
+    margin: 5px auto 25px;
+    font-size: 12px;
+  }
+  .service-area-content {
+    margin: 0px auto;
+  }
 }
 @media only screen and (min-width: 350px) and (max-width: 449px) {
   :root {
@@ -1389,5 +1483,22 @@ ul#mobile-menu li {
   }
   .blog-author {
     font-size: 14px;
+  }
+  .service-area-card-container h3 {
+    width: 100%;
+  }
+  .call-to-action {
+    margin: 25px auto;
+  }
+  .call-to-action h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .call-to-action p {
+    margin: 5px auto 25px;
+    font-size: 12px;
+  }
+  .service-area-content {
+    margin: 0px auto;
   }
 }
