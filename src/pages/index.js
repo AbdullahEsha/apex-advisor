@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import MainFooter from "@/components/MainFooter";
 import useWindowDimensions from "@/components/useWindowDimensions";
+import QuickInquiry from "@/components/QuickInquiry";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -29,10 +30,10 @@ const Home = () => {
         <MainNav />
         <div
           className="homebanner1 container"
-          data-aos="zoom-in"
+          data-aos="fade-up"
           data-aos-delay="50"
           data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic"
+          data-aos-easing="ease"
         >
           <h1>40+ YEARS OF COMBINED EXPERIENCE</h1>
           <p>
@@ -333,6 +334,7 @@ const Home = () => {
           />
         </div>
         <MainFooter />
+        <QuickInquiry />
       </main>
       <script
         src="//code.tidio.co/vbdxwhbv8jwavxp55kspaiysemfvbur8.js"
