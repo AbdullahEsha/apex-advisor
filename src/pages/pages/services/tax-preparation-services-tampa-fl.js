@@ -1,8 +1,8 @@
-import MainFooter from '@/components/MainFooter'
-import MainNav from '@/components/MainNav'
-import ServiceSideBar from '@/components/ServiceSideBar'
-import Head from 'next/head'
-import Image from 'next/image'
+import MainFooter from "@/components/MainFooter";
+import MainNav from "@/components/MainNav";
+import ServiceSideBar from "@/components/ServiceSideBar";
+import Head from "next/head";
+import Image from "next/image";
 
 const TaxPreparationServicesTampaFl = () => {
   return (
@@ -71,21 +71,20 @@ const TaxPreparationServicesTampaFl = () => {
                   height={500}
                   width={1024}
                 />
-                <h2>Accounting Services</h2>
+                <h2>Tax Preparation Services</h2>
                 <p>
-                  Apex Advisor Group is an experienced accounting team that
-                  looks forward to the opportunity to help you manage your
-                  business financials. We will work with you to establish short-
-                  and long-term strategies for growth and profitability.
+                  Tax preparation done right. Guaranteed. Millions of taxpayers
+                  miss out on getting a larger refund each year because they
+                  didn’t take advantage of all the credits and deductions that
+                  are available to them.
                 </p>
                 <p>
-                  Let us help you increase you business’ profitability and
-                  efficiency so that you may continue to succeed!
+                  With Apex Advisor we guarantee assurance that your return is
+                  verified for accuracy, has zero errors and will result in
+                  fewer chances of getting contacted by the IRS. We will also
+                  help you manage the taxes that you pay throughout the year so
+                  you can maximize your cash flow potential.
                 </p>
-                <p>a. Corporate Formations</p>
-                <p>b. Bookkeeping</p>
-                <p>c. Preparing of Financial Statements</p>
-                <p>d. Payroll</p>
               </div>
             </div>
           </div>
@@ -98,24 +97,24 @@ const TaxPreparationServicesTampaFl = () => {
           data-aos-easing="ease"
         >
           <p>
-            Services by Apex Advisor Group Inc include:{' '}
-            <a href="">Tax Preparation</a> | <a href="">Accounting Services</a>{' '}
-            | <a href="">Notary</a> | <a href="">Tax Resolution</a> |{' '}
-            <a href="">Tax Planning</a> |{' '}
+            Services by Apex Advisor Group Inc include:{" "}
+            <a href="">Tax Preparation</a> | <a href="">Accounting Services</a>{" "}
+            | <a href="">Notary</a> | <a href="">Tax Resolution</a> |{" "}
+            <a href="">Tax Planning</a> |{" "}
             <a href="">Credit Repair & Counseling</a> | <a href="">Insurance</a>
           </p>
           <p>
             Our Tax Accountants serve clients across <a href="">Tampa</a>,
-            <a href=""> Brandon</a>, <a href="">Riverview</a>,{' '}
-            <a href=""> Sun City</a>, <a href="">Ruskin</a>,{' '}
-            <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{' '}
+            <a href=""> Brandon</a>, <a href="">Riverview</a>,{" "}
+            <a href=""> Sun City</a>, <a href="">Ruskin</a>,{" "}
+            <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{" "}
             <a href=""> Lithia</a> and the surrounding areas.
           </p>
         </div>
         <MainFooter />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default TaxPreparationServicesTampaFl
+export default TaxPreparationServicesTampaFl;

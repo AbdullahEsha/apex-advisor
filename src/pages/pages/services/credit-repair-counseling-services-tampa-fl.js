@@ -1,8 +1,8 @@
-import MainFooter from '@/components/MainFooter'
-import MainNav from '@/components/MainNav'
-import ServiceSideBar from '@/components/ServiceSideBar'
-import Head from 'next/head'
-import Image from 'next/image'
+import MainFooter from "@/components/MainFooter";
+import MainNav from "@/components/MainNav";
+import ServiceSideBar from "@/components/ServiceSideBar";
+import Head from "next/head";
+import Image from "next/image";
 
 const CreditRepairCounselingServicesTampaFl = () => {
   return (
@@ -71,21 +71,43 @@ const CreditRepairCounselingServicesTampaFl = () => {
                   height={500}
                   width={1024}
                 />
-                <h2>Accounting Services</h2>
+                <h2>Credit Repair Counseling Services</h2>
                 <p>
-                  Apex Advisor Group is an experienced accounting team that
-                  looks forward to the opportunity to help you manage your
-                  business financials. We will work with you to establish short-
-                  and long-term strategies for growth and profitability.
+                  Apex Advisor Group is here to help you understand credit and
+                  learn how the major credit bureaus often have inaccurate or
+                  out of date information that are hurting your credit profile.
                 </p>
                 <p>
-                  Let us help you increase you business’ profitability and
-                  efficiency so that you may continue to succeed!
+                  Questionable negative items are hurting your credit and
+                  removing them can improve your score.
                 </p>
-                <p>a. Corporate Formations</p>
-                <p>b. Bookkeeping</p>
-                <p>c. Preparing of Financial Statements</p>
-                <p>d. Payroll</p>
+                <h3>WHY CREDIT RESTORATION?</h3>
+                <p>
+                  Remember when we were kids in school and were graded by
+                  homework and in class assignments? No one taught us about
+                  credit! Well, as adults, we’re now graded by our spending and
+                  repayment habits. Believe it or not, credit reports contain
+                  errors that can harm your credit score. There are laws in
+                  place to protect us from this. We make sure your credit report
+                  contains true and accurate information and we teach you the
+                  latest tips and tricks on maintaining a healthy and positive
+                  credit score.
+                </p>
+                <p>
+                  In order for us to get your score to it’s healthiest number,
+                  we provide you with a private credit analysis, we contact your
+                  creditors for you and we dispute inaccuracies on your credit
+                  profile. You will NOT have an 850 credit score over night. It
+                  took you some time to get to this point and it will take you
+                  some time to grow from this point.
+                </p>
+                <p>
+                  We have dedicated ourselves to be leaders in the industry by
+                  maintaining up to date knowledge on recent laws, statutes, and
+                  credit reporting practices. We also know what affects your
+                  credit score the most and we know how to help you take
+                  advantage and grow your credit score.
+                </p>
               </div>
             </div>
           </div>
@@ -98,24 +120,24 @@ const CreditRepairCounselingServicesTampaFl = () => {
           data-aos-easing="ease"
         >
           <p>
-            Services by Apex Advisor Group Inc include:{' '}
-            <a href="">Tax Preparation</a> | <a href="">Accounting Services</a>{' '}
-            | <a href="">Notary</a> | <a href="">Tax Resolution</a> |{' '}
-            <a href="">Tax Planning</a> |{' '}
+            Services by Apex Advisor Group Inc include:{" "}
+            <a href="">Tax Preparation</a> | <a href="">Accounting Services</a>{" "}
+            | <a href="">Notary</a> | <a href="">Tax Resolution</a> |{" "}
+            <a href="">Tax Planning</a> |{" "}
             <a href="">Credit Repair & Counseling</a> | <a href="">Insurance</a>
           </p>
           <p>
             Our Tax Accountants serve clients across <a href="">Tampa</a>,
-            <a href=""> Brandon</a>, <a href="">Riverview</a>,{' '}
-            <a href=""> Sun City</a>, <a href="">Ruskin</a>,{' '}
-            <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{' '}
+            <a href=""> Brandon</a>, <a href="">Riverview</a>,{" "}
+            <a href=""> Sun City</a>, <a href="">Ruskin</a>,{" "}
+            <a href=""> Plant City</a>, <a href="">Wesley Chapel</a>,{" "}
             <a href=""> Lithia</a> and the surrounding areas.
           </p>
         </div>
         <MainFooter />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default CreditRepairCounselingServicesTampaFl
+export default CreditRepairCounselingServicesTampaFl;
