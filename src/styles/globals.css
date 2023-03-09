@@ -754,6 +754,15 @@ body {
   padding-left: 5px;
   height: 30px;
 }
+.quick-inquiry-form textarea {
+  border: 0.5px solid #ddd;
+  padding-left: 5px;
+  resize: vertical;
+}
+.quick-inquiry-form input:focus,
+.quick-inquiry-form textarea:focus {
+  outline: none;
+}
 .quick-inquiry-form button {
   background-color: #0b7788;
   padding: 5px 15px;
@@ -777,9 +786,10 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   position: relative;
-  left: 199px;
+  left: 198px;
   top: -142px;
   font-size: 12px;
+  cursor: pointer;
 }
 #quick-inquiry-btn-after {
   transform: rotate(90deg);
