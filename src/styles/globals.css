@@ -1079,6 +1079,9 @@ ul#mobile-menu li {
   .contact-form button {
     font-size: 16px;
   }
+  .contact-background {
+    padding: 120px 25px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   :root {
