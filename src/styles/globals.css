@@ -804,6 +804,7 @@ body {
   left: -40px;
   top: 124px;
   font-size: 12px;
+  cursor: pointer;
 }
 /* ======================= nav bar ======================= */
 .main-nav-container {
@@ -1224,7 +1225,8 @@ ul#mobile-menu li {
     font-size: 15px;
   }
   .home-why-us-image-container {
-    height: 95px;
+    flex-wrap: wrap;
+    gap: 25px;
   }
   .home-service {
     padding: 0px;
@@ -1287,7 +1289,7 @@ ul#mobile-menu li {
     left: 28%;
   }
   .home-about-us-image-container img {
-    height: 100px;
+    height: 125px;
     width: auto;
   }
   #service-mobile svg {
@@ -1516,7 +1518,8 @@ ul#mobile-menu li {
     margin-bottom: 15px;
   }
   .home-why-us-image-container {
-    height: 74px;
+    flex-wrap: wrap;
+    gap: 25px;
   }
   .card-home-service {
     height: 235px;
@@ -1530,7 +1533,9 @@ ul#mobile-menu li {
     box-shadow: none;
     margin: 25px auto 0px;
   }
-
+  .home-why-us-image {
+    width: 100%;
+  }
   #service-p-color {
     color: #000000;
     margin-bottom: 30px;
