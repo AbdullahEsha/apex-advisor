@@ -76,7 +76,9 @@ const Services = () => {
                 manage the taxes that you pay throughout the year so you can
                 maximize your cash flow potential.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/tax-preparation-services-tampa-fl">
+                Read More
+              </Link>
             </div>
           </div>
           <div
@@ -94,7 +96,9 @@ const Services = () => {
                 financials. We will work with you to establish short- and
                 long-term strategies for growth and profitability.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/accounting-services-tampa-fl">
+                Read More
+              </Link>
             </div>
             <Image
               src="/image/accounting-services.jpg"
@@ -125,7 +129,9 @@ const Services = () => {
                 and assist in preparing for their financial future for
                 themselves and their family.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/notary-services-tampa-fl">
+                Read More
+              </Link>
             </div>
           </div>
           <div
@@ -143,7 +149,9 @@ const Services = () => {
                 owe back taxes to the IRS. Let Apex Advisor help you get through
                 this stressful situation.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/tax-resolution-services-tampa-fl">
+                Read More
+              </Link>
             </div>
             <Image
               src="/image/tax-resolution.jpg"
@@ -173,7 +181,9 @@ const Services = () => {
                 taxable events, and go beyond tax compliance and proactively
                 structure your wealth wisely.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/tax-planning-services-tampa-fl">
+                Read More
+              </Link>
             </div>
           </div>
           <div
@@ -196,7 +206,9 @@ const Services = () => {
                 him available year round at Apex Advisors for your peace of
                 mind.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/credit-repair-counseling-services-tampa-fl">
+                Read More
+              </Link>
             </div>
             <Image
               src="/image/credit-repair.jpg"
@@ -231,7 +243,9 @@ const Services = () => {
                 him available year round at Apex Advisors for your peace of
                 mind.
               </p>
-              <Link href="/">Read More</Link>
+              <Link href="/pages/services/insurance-services-tampa-fl">
+                Read More
+              </Link>
             </div>
           </div>
         </div>

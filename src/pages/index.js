@@ -97,7 +97,7 @@ const Home = () => {
                   and within budget. Contact us today to experience the best
                   service in the industry!
                 </p>
-                <Link href="/" id="view-all-btn">
+                <Link href="/about" id="view-all-btn">
                   VIEW ALL
                 </Link>
               </div>
@@ -107,7 +107,11 @@ const Home = () => {
                 modules={[Navigation, Pagination]}
                 navigation={false}
                 effect="coverflow"
-                autoplay={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  reverseDirection: true,
+                }}
                 loop={true}
                 coverflowEffect={{
                   rotate: 0,
@@ -117,16 +121,16 @@ const Home = () => {
                   slideShadows: false,
                 }}
                 slidesPerView={width < 992 ? 1 : 3}
-                spaceBetween={15}
+                spaceBetween={25}
                 pagination={{
                   dynamicBullets: true,
                 }}
-                initialSlide={1.6}
+                initialSlide={1}
                 style={{
                   width: "100%",
                   margin: "auto",
                   padding: "10px",
-                  height: "325px",
+                  height: "100%",
                 }}
               >
                 {Data.map((item, index) => (
@@ -265,7 +269,11 @@ const Home = () => {
               modules={[Navigation, Pagination]}
               navigation={false}
               effect="coverflow"
-              autoplay={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+                reverseDirection: true,
+              }}
               loop={true}
               coverflowEffect={{
                 rotate: 0,
@@ -279,7 +287,7 @@ const Home = () => {
               pagination={{
                 dynamicBullets: true,
               }}
-              initialSlide={1.6}
+              initialSlide={1}
               style={{
                 width: "100%",
                 margin: "auto",
