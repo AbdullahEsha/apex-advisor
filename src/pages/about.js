@@ -1,6 +1,7 @@
 import CallToAction from "@/components/CallToAction";
 import MainFooter from "@/components/MainFooter";
 import MainNav from "@/components/MainNav";
+import QuickInquiry from "@/components/QuickInquiry";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -281,6 +282,7 @@ const About = () => {
         </div>
         <CallToAction />
         <MainFooter />
+        <QuickInquiry />
       </main>
       <script
         src="//code.tidio.co/vbdxwhbv8jwavxp55kspaiysemfvbur8.js"

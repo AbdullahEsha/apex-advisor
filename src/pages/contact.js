@@ -1,5 +1,6 @@
 import MainFooter from "@/components/MainFooter";
 import MainNav from "@/components/MainNav";
+import QuickInquiry from "@/components/QuickInquiry";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -108,6 +109,7 @@ const Contact = () => {
           src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=1211%20Tech%20Blvd%20Suite%20105+(Apex%20Advisor)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         />
         <MainFooter />
+        <QuickInquiry />
       </main>
       <script
         src="//code.tidio.co/vbdxwhbv8jwavxp55kspaiysemfvbur8.js"
