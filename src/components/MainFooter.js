@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
-import { FaFacebookSquare } from "react-icons/fa";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+import { FaFacebookSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const MainFooter = () => {
   return (
@@ -25,16 +25,33 @@ const MainFooter = () => {
               <div className="col-link">
                 <h3>LINKS</h3>
                 <Link href="/">Home</Link>
-                <Link href="/">About</Link>
-                <Link href="/">Services</Link>
-                <Link href="/">Services Area</Link>
-                <Link href="/">Blog</Link>
-                <Link href="/">Contact</Link>
+                <Link href="/about">About</Link>
+                <Link href="/services">Services</Link>
+                <Link href="/services-area">Services Area</Link>
+                {/* <Link href="/blog">Blog</Link> */}
+                <Link href="/contact">Contact</Link>
               </div>
               <div className="col-follow">
                 <h3>FOLLOW US</h3>
                 <div className="footer-follow-icon">
-                  <FaFacebookSquare size={35} /> <AiFillInstagram size={40} />
+                  <Link
+                    href="https://www.facebook.com/apexadvisorgroup
+"
+                  >
+                    <FaFacebookSquare size={35} />
+                  </Link>{" "}
+                  <Link href="https://www.instagram.com/apexadvisorgroup/">
+                    <AiFillInstagram size={40} />
+                  </Link>{" "}
+                  <Link href="https://www.linkedin.com/company/apex-advisor-group-inc/">
+                    <FaLinkedin size={35}></FaLinkedin>
+                  </Link>{" "}
+                  <Link href="https://www.youtube.com/@apexadvisorgroup">
+                    <AiFillYoutube size={35} />
+                  </Link>{" "}
+                  <Link href="https://twitter.com/apex_advisor">
+                    <FaTwitter size={35} />
+                  </Link>
                 </div>
               </div>
               <div className="col-subscribe">
@@ -48,8 +65,15 @@ const MainFooter = () => {
         </div>
         <div className="footer-bottom">
           <p>
-            ©{new Date().getFullYear()} Apex Advisor Group INC ®All Rights
-            Reserved.
+            Copyright ©{new Date().getFullYear()} All Rights Reserved by{" "}
+            <Link
+              href="https://bayshorecommunication.com/"
+              target="_blank"
+              id="bayshore-notation"
+            >
+              Bayshore Communication
+            </Link>
+            .
           </p>
         </div>
       </div>

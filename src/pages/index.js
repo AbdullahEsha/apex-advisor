@@ -97,7 +97,7 @@ const Home = () => {
                   and within budget. Contact us today to experience the best
                   service in the industry!
                 </p>
-                <Link href="/about" id="view-all-btn">
+                <Link href="/services" id="view-all-btn">
                   VIEW ALL
                 </Link>
               </div>
@@ -107,11 +107,11 @@ const Home = () => {
                 modules={[Navigation, Pagination]}
                 navigation={false}
                 effect="coverflow"
-                autoplay={{
-                  delay: 2500,
-                  disableOnInteraction: false,
-                  reverseDirection: true,
-                }}
+                // autoplay={{
+                //   delay: 2500,
+                //   disableOnInteraction: false,
+                //   reverseDirection: true,
+                // }}
                 loop={true}
                 coverflowEffect={{
                   rotate: 0,
@@ -269,11 +269,11 @@ const Home = () => {
               modules={[Navigation, Pagination]}
               navigation={false}
               effect="coverflow"
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-                reverseDirection: true,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              //   reverseDirection: true,
+              // }}
               loop={true}
               coverflowEffect={{
                 rotate: 0,

@@ -33,15 +33,4 @@ export const Data = [
         Advisor help you get through this
         stressful situation.`,
   },
-  {
-    id: "63219ac23981ed00162dc605",
-    image: "resicon.png",
-    title: "Tax Resolution",
-    detail: `We can help reduce or eliminate your
-        IRS debts legally and ethically. So many
-        resolutions are available to taxpayers
-        that owe back taxes to the IRS. Let Apex
-        Advisor help you get through this
-        stressful situation.`,
-  },
 ];

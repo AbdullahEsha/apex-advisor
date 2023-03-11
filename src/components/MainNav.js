@@ -1,14 +1,16 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { useState } from 'react'
-import { MdLocalPhone } from 'react-icons/md'
-import { RiArrowDropDownLine } from 'react-icons/ri'
-import useWindowDimensions from './useWindowDimensions'
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
+import { MdLocalPhone } from "react-icons/md";
+import { RiArrowDropDownLine } from "react-icons/ri";
+import useWindowDimensions from "./useWindowDimensions";
 
 const MainNav = () => {
-  const [menuIcon, setMenuIcon] = useState(true)
-  const [subMenuIcon, setSubMenuIcon] = useState(true)
-  const { width } = useWindowDimensions()
+  const [menuIcon, setMenuIcon] = useState(true);
+  const [subMenuIcon, setSubMenuIcon] = useState(true);
+  const { width } = useWindowDimensions();
+  const router = useRouter();
 
   return (
     <>
@@ -23,8 +25,8 @@ const MainNav = () => {
                 width={16}
                 id="mobile_menu_icon"
                 onClick={() => {
-                  setMenuIcon(false)
-                  document.getElementById('mobile-menu').style.display = 'grid'
+                  setMenuIcon(false);
+                  document.getElementById("mobile-menu").style.display = "grid";
                 }}
               />
             ) : (
@@ -35,8 +37,8 @@ const MainNav = () => {
                 width={16}
                 id="mobile_menu_icon"
                 onClick={() => {
-                  setMenuIcon(true)
-                  document.getElementById('mobile-menu').style.display = 'none'
+                  setMenuIcon(true);
+                  document.getElementById("mobile-menu").style.display = "none";
                 }}
               />
             )}
@@ -58,34 +60,34 @@ const MainNav = () => {
                 <li
                   id="service-list"
                   onClick={() => {
-                    setSubMenuIcon(false)
-                    document.getElementById('submenu1').style.display = 'block'
-                    document.getElementById('submenu2').style.display = 'block'
-                    document.getElementById('submenu3').style.display = 'block'
-                    document.getElementById('submenu4').style.display = 'block'
-                    document.getElementById('submenu5').style.display = 'block'
-                    document.getElementById('submenu6').style.display = 'block'
-                    document.getElementById('submenu7').style.display = 'block'
+                    setSubMenuIcon(false);
+                    document.getElementById("submenu1").style.display = "block";
+                    document.getElementById("submenu2").style.display = "block";
+                    document.getElementById("submenu3").style.display = "block";
+                    document.getElementById("submenu4").style.display = "block";
+                    document.getElementById("submenu5").style.display = "block";
+                    document.getElementById("submenu6").style.display = "block";
+                    document.getElementById("submenu7").style.display = "block";
                   }}
                 >
-                  <Link href="/services">Services</Link>{' '}
+                  <Link href="/services">Services</Link>{" "}
                   <RiArrowDropDownLine size={25} id="service-mobile" />
                 </li>
               ) : (
                 <li
                   id="service-list"
                   onClick={() => {
-                    setSubMenuIcon(true)
-                    document.getElementById('submenu1').style.display = 'none'
-                    document.getElementById('submenu2').style.display = 'none'
-                    document.getElementById('submenu3').style.display = 'none'
-                    document.getElementById('submenu4').style.display = 'none'
-                    document.getElementById('submenu5').style.display = 'none'
-                    document.getElementById('submenu6').style.display = 'none'
-                    document.getElementById('submenu7').style.display = 'none'
+                    setSubMenuIcon(true);
+                    document.getElementById("submenu1").style.display = "none";
+                    document.getElementById("submenu2").style.display = "none";
+                    document.getElementById("submenu3").style.display = "none";
+                    document.getElementById("submenu4").style.display = "none";
+                    document.getElementById("submenu5").style.display = "none";
+                    document.getElementById("submenu6").style.display = "none";
+                    document.getElementById("submenu7").style.display = "none";
                   }}
                 >
-                  <Link href="/services">Services</Link>{' '}
+                  <Link href="/services">Services</Link>{" "}
                   <RiArrowDropDownLine size={25} id="service-mobile" />
                 </li>
               )}
@@ -127,9 +129,9 @@ const MainNav = () => {
               <li>
                 <Link href="/services-area">Services Area</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/blogs">Blogs</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">Contact</Link>
               </li>
@@ -140,17 +142,52 @@ const MainNav = () => {
         <div className="main-nav-container-out">
           <div className="main-nav-container">
             <div className="main-nav-left">
-              <Image
-                src="/image/logo.png"
-                alt="logo"
-                height={79}
-                width={145}
-                className="logo_main_nav"
-              />
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
+              <Link href="/">
+                <Image
+                  src="/image/logo.png"
+                  alt="logo"
+                  height={79}
+                  width={145}
+                  className="logo_main_nav"
+                />
+              </Link>
+              <Link
+                href="/"
+                className={`${router.pathname === "/" && "main-nav-underline"}`}
+              >
+                Home
+              </Link>
+              <Link
+                href="/about"
+                className={`${
+                  router.pathname === "/about" && "main-nav-underline"
+                }`}
+              >
+                About
+              </Link>
               <div className="dropdown">
-                <Link href="/services" id="services">
+                <Link
+                  href="/services"
+                  id="services"
+                  className={`${
+                    (router.pathname === "/services" ||
+                      router.pathname ===
+                        "/pages/services/tax-preparation-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/accounting-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/notary-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/tax-resolution-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/tax-planning-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/credit-repair-counseling-services-tampa-fl" ||
+                      router.pathname ===
+                        "/pages/services/insurance-services-tampa-fl") &&
+                    "main-nav-underline"
+                  }`}
+                >
                   Services <RiArrowDropDownLine size={30} />
                 </Link>
                 <div className="dropdown-content-out">
@@ -193,15 +230,42 @@ const MainNav = () => {
                   </ul>
                 </div>
               </div>
-              <Link href="/services-area">Services Area</Link>
-              <Link href="/blogs">Blogs</Link>
-              <Link href="/contact">Contact</Link>
+              <Link
+                href="/services-area"
+                className={`${
+                  router.pathname === "/services-area" && "main-nav-underline"
+                }`}
+              >
+                Services Area
+              </Link>
+              {/* <Link
+                href="/blogs"
+                className={`${
+                  router.pathname === "/blogs" && "main-nav-underline"
+                }`}
+              >
+                Blogs
+              </Link> */}
+              <Link
+                href="/contact"
+                className={`${
+                  router.pathname === "/contact" && "main-nav-underline"
+                }`}
+              >
+                Contact
+              </Link>
             </div>
             <div className="main-nav-right">
               <Link href="/contact" className="nav-button">
                 Email Now
               </Link>
-              <Link href="/pages/book-an-appointment" className="nav-button">
+              <Link
+                href="/pages/book-an-appointment"
+                className={`nav-button ${
+                  router.pathname === "/pages/book-an-appointment" &&
+                  "main-nav-underline"
+                }`}
+              >
                 Book an appoinment
               </Link>
               <a href="tel:(813) 678 2400" id="phone-number">
@@ -212,7 +276,7 @@ const MainNav = () => {
         </div>
       )}
     </>
-  )
-}
+  );
+};
 
-export default MainNav
+export default MainNav;
