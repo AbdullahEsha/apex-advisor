@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FaFacebookSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -11,7 +11,7 @@ const MainFooter = () => {
           <div className="container">
             <div className="row">
               <div className="col-logo">
-                <Image
+                <img
                   src="/image/logowhite.png"
                   alt="logowhite"
                   height={111}
@@ -65,7 +65,8 @@ const MainFooter = () => {
         </div>
         <div className="footer-bottom">
           <p>
-            Copyright ©{new Date().getFullYear()} All Rights Reserved by{" "}
+            ©{new Date().getFullYear()} All Rights Reserved by Apex Advisor
+            Group Inc. Develop & Maintain By{" "}
             <Link
               href="https://bayshorecommunication.com/"
               target="_blank"

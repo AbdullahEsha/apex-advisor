@@ -1246,7 +1246,7 @@ ul#mobile-menu li {
     justify-content: center;
   }
   .top-head-position-inside {
-    padding-right: 0px;
+    padding: 10px 0px 25px;
     text-align: center;
   }
   .about-group-member {
@@ -1426,7 +1426,7 @@ ul#mobile-menu li {
     flex-direction: column-reverse;
   }
   .footer-bottom p {
-    max-width: 220px;
+    max-width: 250px;
     margin: 0px auto;
   }
   .service-detail {
@@ -1562,7 +1562,7 @@ ul#mobile-menu li {
     justify-content: center;
   }
   .top-head-position-inside {
-    padding-right: 0px;
+    padding: 15px 0px 0px;
     text-align: center;
   }
   .about-group-member {
@@ -1751,7 +1751,7 @@ ul#mobile-menu li {
     font-weight: 400;
   }
   .footer-bottom p {
-    max-width: 220px;
+    max-width: 250px;
     margin: 0px auto;
   }
   .service-detail {

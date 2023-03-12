@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -18,7 +18,7 @@ const MainNav = () => {
         <div className="mobile-nav-out">
           <div className="mobile-nav">
             {menuIcon ? (
-              <Image
+              <img
                 src={`/image/menulineicon.png`}
                 alt="menu-icon"
                 height={16}
@@ -30,7 +30,7 @@ const MainNav = () => {
                 }}
               />
             ) : (
-              <Image
+              <img
                 src={`/image/menucrossicon.png`}
                 alt="menu-icon"
                 height={16}
@@ -42,7 +42,7 @@ const MainNav = () => {
                 }}
               />
             )}
-            <Image
+            <img
               src="/image/logo.png"
               alt="logo"
               height={79}
@@ -143,7 +143,7 @@ const MainNav = () => {
           <div className="main-nav-container">
             <div className="main-nav-left">
               <Link href="/">
-                <Image
+                <img
                   src="/image/logo.png"
                   alt="logo"
                   height={79}
