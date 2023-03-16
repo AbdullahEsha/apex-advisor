@@ -73,7 +73,7 @@ const About = () => {
           >
             <img
               src="/image/carlos-rosario.jpg"
-              alt="advisor-image"
+              alt="carlos-rosario"
               height={290}
               width={290}
             />
@@ -111,7 +111,7 @@ const About = () => {
           >
             <img
               src="/image/jennifer-colon.jpg"
-              alt="advisor-image"
+              alt="jennifer-colon"
               height={290}
               width={290}
             />
@@ -150,7 +150,7 @@ const About = () => {
           >
             <img
               src="/image/eddia-rosario.jpg"
-              alt="advisor-image"
+              alt="eddia-rosario"
               height={290}
               width={290}
             />
@@ -200,7 +200,7 @@ const About = () => {
           >
             <img
               src="/image/stephane-calixte.jpg"
-              alt="advisor-image"
+              alt="stephane-calixte"
               height={290}
               width={290}
             />
@@ -240,7 +240,7 @@ const About = () => {
           >
             <img
               src="/image/carlos-alberto-muñoz.jpg"
-              alt="advisor-image"
+              alt="carlos-alberto-muñoz"
               height={290}
               width={290}
             />

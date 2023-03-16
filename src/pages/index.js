@@ -219,31 +219,31 @@ const Home = () => {
             <div className="home-about-us-image-container">
               <img
                 src="/image/carlos-rosario.jpg"
-                alt="advisor"
+                alt="carlos-rosario"
                 height={164}
                 width={164}
               />
               <img
                 src="/image/jennifer-colon.jpg"
-                alt="advisor"
+                alt="jennifer-colon"
                 height={164}
                 width={164}
               />
               <img
                 src="/image/eddia-rosario.jpg"
-                alt="advisor"
+                alt="eddia-rosario"
                 height={164}
                 width={164}
               />
               <img
                 src="/image/stephane-calixte.jpg"
-                alt="advisor"
+                alt="stephane-calixte"
                 height={164}
                 width={164}
               />
               <img
                 src="/image/carlos-alberto-muñoz.jpg"
-                alt="advisor"
+                alt="carlos-alberto-muñoz"
                 height={164}
                 width={164}
               />
