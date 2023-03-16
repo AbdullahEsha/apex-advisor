@@ -242,8 +242,8 @@ const Home = () => {
                 width={164}
               />
               <img
-                src="/image/carlos-alberto-muñoz.jpg"
-                alt="carlos-alberto-muñoz"
+                src="/image/carlos-alberto.jpg"
+                alt="carlos-alberto"
                 height={164}
                 width={164}
               />

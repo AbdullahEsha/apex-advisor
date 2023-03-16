@@ -153,8 +153,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/carlos-alberto-muñoz.jpg"
-              alt="carlos-alberto-muñoz"
+              src="/image/carlos-alberto.jpg"
+              alt="carlos-alberto"
               height={181}
               width={260}
             />
