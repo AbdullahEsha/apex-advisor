@@ -43,8 +43,8 @@ const MainNav = () => {
               />
             )}
             <img
-              src="/image/logo.png"
-              alt="logo"
+              src="/image/apex-logo.png"
+              alt="apex-logo"
               height={79}
               width={145}
               id="logo_mobile"
@@ -144,8 +144,8 @@ const MainNav = () => {
             <div className="main-nav-left">
               <Link href="/">
                 <img
-                  src="/image/logo.png"
-                  alt="logo"
+                  src="/image/apex-logo.png"
+                  alt="apex-logo"
                   height={79}
                   width={145}
                   className="logo_main_nav"

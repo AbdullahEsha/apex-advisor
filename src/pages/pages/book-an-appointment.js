@@ -57,8 +57,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/advisor1.jpg"
-              alt="tax-prepration"
+              src="/image/carlos-rosario.jpg"
+              alt="carlos-rosario"
               height={181}
               width={260}
             />
@@ -81,8 +81,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/advisor2.jpg"
-              alt="accounting-services"
+              src="/image/jennifer-colon.jpg"
+              alt="jennifer-colon"
               height={181}
               width={260}
             />
@@ -105,8 +105,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/advisor3.jpg"
-              alt="notary"
+              src="/image/eddia-rosario.jpg"
+              alt="eddia-rosario"
               height={181}
               width={260}
             />
@@ -129,8 +129,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/advisor4.jpg"
-              alt="tax-resolution"
+              src="/image/stephane-calixte.jpg"
+              alt="stephane-calixte"
               height={181}
               width={260}
             />
@@ -153,8 +153,8 @@ const BookAnAppoinment = () => {
             data-aos-easing="ease"
           >
             <img
-              src="/image/advisor5.jpg"
-              alt="tax-planning"
+              src="/image/carlos-alberto-muñoz.jpg"
+              alt="carlos-alberto-muñoz"
               height={181}
               width={260}
             />

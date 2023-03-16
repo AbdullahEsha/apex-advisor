@@ -218,31 +218,31 @@ const Home = () => {
             </p>
             <div className="home-about-us-image-container">
               <img
-                src="/image/advisor1.jpg"
+                src="/image/carlos-rosario.jpg"
                 alt="advisor"
                 height={164}
                 width={164}
               />
               <img
-                src="/image/advisor2.jpg"
+                src="/image/jennifer-colon.jpg"
                 alt="advisor"
                 height={164}
                 width={164}
               />
               <img
-                src="/image/advisor3.jpg"
+                src="/image/eddia-rosario.jpg"
                 alt="advisor"
                 height={164}
                 width={164}
               />
               <img
-                src="/image/advisor4.jpg"
+                src="/image/stephane-calixte.jpg"
                 alt="advisor"
                 height={164}
                 width={164}
               />
               <img
-                src="/image/advisor5.jpg"
+                src="/image/carlos-alberto-muñoz.jpg"
                 alt="advisor"
                 height={164}
                 width={164}
